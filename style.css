@@ -554,7 +554,7 @@ color:#aabdcf;
  border-radius: .5rem;
  object-fit:cover;
 } */
-.menu .box-container .box .image .fa-heart{
+/* .menu .box-container .box .image .fa-heart{
  position: absolute;
  top: 2.5rem; right: 2.5rem;
  height: 5rem;
@@ -565,29 +565,34 @@ color:#aabdcf;
  background: #fff;
  border-radius: 50%;
  color: var(--black);
-}
-.menu .box-container .box .image .fa-heart:hover{
+} */
+/* .menu .box-container .box .image .fa-heart:hover{
  background-color: var(--green);
  color: #fff;
-}
+} */
 .menu .box-container .box .content{
  padding: 2rem;
  padding-top: 0;
 }
-.menu .box-container .box .content .stars{
+/* .menu .box-container .box .content .stars{
  padding-bottom: 1rem;
-}
-.menu .box-container .box .content .stars i{
+} */
+/* .menu .box-container .box .content .stars i{
  font-size: 1.7rem;
  color: var(--green);
-}
+} */
 .menu .box-container .box .content h3{
+ padding: 1rem 0;
  color: var(--black);
  font-size: 2.5rem;
 }
+.menu .box-container .box .content h4{
+ color: var(--black);
+ font-size: 2.2rem;
+}
 .menu .box-container .box .content p{
  color: var(--light-color);
- font-size: 1.6rem;
+ font-size: 2rem;
  padding: .5rem 0;
  line-height: 1.5;
 }
@@ -640,8 +645,8 @@ color:#aabdcf;
 } */
 
 .review-slide p{
- font-size: 2.4rem;
- line-height: 1.3;
+ font-size: 2rem;
+ line-height: 1;
  color: var(--black);
  font-weight: 250;
 }
