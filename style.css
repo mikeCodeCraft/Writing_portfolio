@@ -183,9 +183,7 @@ html{
 }
 section{
  padding: 2rem 9%;
- background-color: #253863;
-
- 
+ background-color: #2b3e6a; 
 }
 
 section:nth-child(even){
@@ -284,7 +282,7 @@ header .icons #menu-bars{
  display: none;
 }
 
-#search-form{
+/* #search-form{
  position: fixed;
  top: -110%; left: 0;
  height: 100%; width: 100%;
@@ -294,9 +292,9 @@ header .icons #menu-bars{
  align-items: center;
  justify-content: center;
  padding: 0 1rem;
-}
+} */
 
-#search-form.active{
+/* #search-form.active{
  top: 0;
 }
 
@@ -313,8 +311,8 @@ header .icons #menu-bars{
 
 
 #search-form #search-box::placeholder{
- color: #eee;
-}
+ color: #eee; */
+/* }
 
 #search-form #search-box::-webkit-search-cancel-button{
  -webkit-appearance: none;
@@ -336,7 +334,8 @@ header .icons #menu-bars{
  top: 2rem; 
  right: 3rem;
  font-size: 5rem;
-}
+} */
+
 
 .home .home-slider .slide{
  /* background: url(images/homebg.jpg) no-repeat; */
@@ -347,8 +346,7 @@ header .icons #menu-bars{
  flex-wrap: wrap;
  gap: 1rem;
  padding-top: 9rem;
- color:#f1f5f9
- 
+ color:#f1f5f9;
 }
 
 .img5{
@@ -392,7 +390,9 @@ header .icons #menu-bars{
  padding: 1rem 0;
  line-height: 1.5;
 }
-
+.mobile_home{
+ display: none;
+}
 /* .dot{
  background-color: #bbb;
  height: 15px;
@@ -496,9 +496,9 @@ color:#aabdcf;
 }
 .about .row .content p{
  color:#eee;
- font-size: 2.2rem;
+ font-size: 2rem;
  padding: .5rem 0;
- line-height: 2;
+ line-height: 1.3;
  font-weight: 250;
       
 }
@@ -601,7 +601,26 @@ color:#aabdcf;
  margin-left: 1rem;
  font-size: 2.5rem;
 }
-
+.show-less{
+    color: red;
+    padding-left: .5rem;
+}
+.show-less:hover{
+    color: red;
+    background: var(--green);
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.read-more{
+    color: green;
+    padding-left: .5rem;
+}
+.read-more:hover{
+    color: #fff;
+    background: var(--green);
+    padding: .5rem;
+    border-radius: 1rem;
+}
 .review{
  padding: 2rem 9%;
 }
@@ -738,9 +757,7 @@ color:#aabdcf;
 .footer .credit span{
  color: var(--green);
 }
-.mobile_home{
- display: none;
-}
+
 
 @media screen and (max-width:991px){
  html{
@@ -792,6 +809,7 @@ color:#aabdcf;
     background-size: cover;
     background-position: center; */
     display: block;
+    background-color: #2b3e6a;
     }
 
  .mobile_home .home-slide {
