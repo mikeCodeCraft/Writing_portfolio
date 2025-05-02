@@ -764,6 +764,7 @@ color:#aabdcf;
   font-size: 55%;
  }
  header{
+  position: fixed;
   padding: 1rem 2rem;
  }
 
