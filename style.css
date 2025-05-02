@@ -200,7 +200,7 @@ section:nth-child(even){
 
 .heading{
  text-align: center;
- color:#aabdcf;
+ color:#c5e3ff;
  font-size: 3rem;
  padding-bottom: 2rem;
  text-transform: uppercase;
@@ -378,14 +378,14 @@ header .icons #menu-bars{
 }
 .home .home-slider .slide .content h3{
  padding: 5rem 0;
- color:#aabdcf;
+ color:#c5e3ff;;
  /* font-size: 5rem; */
 
  /* color: var(--black); */
  font-size: 3.5rem;
 }
 .home .home-slider .slide .content p{
- color:#eee;
+ color:#ffffff;
  font-size: 2.5rem;
  padding: 1rem 0;
  line-height: 1.5;
@@ -490,7 +490,7 @@ header .icons #menu-bars{
  flex: 1 1 45rem;
 }
 .about .row .content h3{
-color:#aabdcf;
+ color:#c5e3ff;
  font-size: 4rem;
  padding: .5rem 0;
 }
@@ -591,10 +591,11 @@ color:#aabdcf;
  font-size: 2.2rem;
 }
 .menu .box-container .box .content p{
- color: var(--light-color);
+ color: black;
+ font-weight: bold;
  font-size: 2rem;
  padding: .5rem 0;
- line-height: 1.5;
+ line-height: 1.2;
 }
 .menu .box-container .box .content .price{
  color: var(--green);
@@ -664,60 +665,13 @@ color:#aabdcf;
 } */
 
 .review-slide p{
+ font-weight: bold;
  font-size: 2rem;
- line-height: 1;
+ line-height: 1.2;
  color: var(--black);
- font-weight: 250;
+ /* font-weight: 250; */
 }
 
-.order form{
- max-width: 90rem;
- border-radius: 5rem;
- box-shadow: var(--box-shadow);
- border: .1rem solid rgba(0,0,0,.2);
- background: #fff;
- padding: 1.5rem;
- margin: 0 auto;
-
-}
-
-.order form .inputBox{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
-}
-.order form .inputBox .input{
- width: 49%;
-}
-.order form .inputBox .input span{
- display: block;
- padding: .5rem 0;
- font-size: 1.5rem;
- color: var(--light-color);
-}
-.order form .inputBox .input input,
-.order form .inputBox .input textarea{
- background: #eee;
- border-radius: .5rem;
- padding: 1rem;
- font-size: 1.6rem;
- color: var(--black);
- text-transform: none;
- margin-bottom: 1rem;
- width: 100%;
-}
-.order form .inputBox .input input:focus,
-.order form .inputBox .input textarea:focus{
- border: .1rem solid var(--green);
-}
-
-.order form .inputBox .input textarea{
- height: 20rem;
- resize: none;
-}
-.order form .btn{
- margin-top: 0;
-}
 
 .footer{
  padding: 2rem 9%;
@@ -809,6 +763,8 @@ color:#aabdcf;
     /* background: url(homebg.jpg) no-repeat;
     background-size: cover;
     background-position: center; */
+    padding: 2rem 9%;
+
     display: block;
     background-color: #2b3e6a;
     }
@@ -836,7 +792,7 @@ color:#aabdcf;
  }
  .mobile_home .home-slider .slide .image img{
 
-    width: 60%;
+    width: 55%;
     /* height: 50%; */
     /* width: 100%; */
     max-width: 350px;
